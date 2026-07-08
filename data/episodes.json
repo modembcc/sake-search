@@ -1,0 +1,269 @@
+{
+  "series": "Botan Kamiina Fully Blossoms When Drunk",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "",
+      "airDate": "2026-04-11",
+      "alcohols": [
+        {
+          "japaneseName": "ハイボール",
+          "englishName": "Whiskey Highball",
+          "image": "https://www.mashed.com/img/gallery/japanese-whiskey-highball-recipe/japanese-whiskey-highball-recipe-1655235295.jpg",
+          "type": "Cocktail",
+          "abv": "7% to 9% in ready-to-drink cans",
+          "brand": "",
+          "origin": "Japan",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "巨峰ワイン",
+          "englishName": "Kyoho Wine (Gensaku-jirushi)",
+          "image": "https://image.raku-uru.jp/01/9242/183/kyohou_1592362578695.jpg",
+          "type": "Wine",
+          "abv": "11%",
+          "brand": "源作印",
+          "origin": "Chichibu, Saitama, Japan",
+          "jpStores": [
+            {
+              "name": "Bukou Sake Brewery (武甲酒造)",
+              "url": "https://bukou.raku-uru.jp/item-detail/400644"
+            }
+          ],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "十万石まんじゅう",
+          "englishName": "jumangoku manju",
+          "image": "https://m.media-amazon.com/images/I/51CKBM7bTNL._AC_.jpg",
+          "type": "Snack",
+          "abv": "n.a",
+          "brand": "Jumangoku Fukusaya (十万石ふくさや)",
+          "origin": "Gyoda, Saitama, Japan",
+          "jpStores": [
+            {
+              "name": "Amazon Japan",
+              "url": "https://www.amazon.co.jp/-/en/Saitama-Confectionery-Jumangoku-Manju-Pieces/dp/B0D7CT7XPH?th=1"
+            }
+          ],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "秩父錦 純米大吟醸",
+          "englishName": "Chichibunishiki Junmaidaiginjo",
+          "image": "https://tshop.r10s.jp/rouge-yao/cabinet/09949619/10040474/imgrc0118038631.jpg?_ex=200x200&s=0&r=1",
+          "type": "Sake",
+          "abv": "16-17%",
+          "brand": "Yao Honten (矢尾本店)",
+          "origin": "Chichibu, Saitama, Japan",
+          "jpStores": [
+            {
+              "name": "Yao Department Store Rakuten Shop (矢尾百貨店 楽天市場店)",
+              "url": "https://item.rakuten.co.jp/rouge-yao/nishikikidaiginn2/"
+            }
+          ],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "",
+      "airDate": "2026-04-18",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "",
+      "airDate": "2026-04-25",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "",
+      "airDate": "2026-05-02",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "",
+      "airDate": "2026-05-09",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "",
+      "airDate": "2026-05-16",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "",
+      "airDate": "2026-05-23",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "",
+      "airDate": "2026-05-30",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "",
+      "airDate": "2026-06-06",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "",
+      "airDate": "2026-06-13",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "",
+      "airDate": "2026-06-20",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "",
+      "airDate": "2026-06-27",
+      "alcohols": [
+        {
+          "japaneseName": "",
+          "englishName": "",
+          "image": "",
+          "type": "",
+          "abv": "",
+          "brand": "",
+          "origin": "",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        }
+      ]
+    }
+  ]
+}
