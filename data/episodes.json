@@ -73,13 +73,61 @@
       "airDate": "2026-04-18",
       "alcohols": [
         {
-          "japaneseName": "",
-          "englishName": "",
-          "image": "",
-          "type": "",
-          "abv": "",
-          "brand": "",
-          "origin": "",
+          "japaneseName": "アサヒスーパードライ",
+          "englishName": "Asahi Dry Beer",
+          "image": "https://www.asahibeer.co.jp/web-service/common/image_quality.psp.html?CMD=onAspect&DF=0&H=340&PATH=/web-service/common/products/asahibeer/original/beer/20260220_1F105_DB2_001.jpg",
+          "type": "Beer",
+          "abv": "5%",
+          "brand": "Asahi",
+          "origin": "Japan",
+          "jpStores": [
+            {
+              "name": "Amazon Japan",
+              "url": "https://www.amazon.co.jp/-/en/Asahi-Super-Dry-11-8-350/dp/B00IOGMXNY"
+            }
+          ],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "六代目百合",
+          "englishName": "Rokudaime Yuri Sweet Potato",
+          "image": "https://cdn.shopify.com/s/files/1/0575/1354/1797/files/25-01249168-7316020.webp?v=1775729837",
+          "type": "Shochu",
+          "abv": "25% or 35% (varies by bottling)",
+          "brand": "Shiota Shuzo (塩田酒造)",
+          "origin": "Koshikijima Island, Kagoshima, Japan",
+          "jpStores": [
+            {
+              "name": "Imadeya Online Store (English)",
+              "url": "https://en.imadeya.co.jp/products/8175832301733"
+            }
+          ],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "雪ぐま",
+          "englishName": "Chichibu Wheat Saison",
+          "image": "https://beertengoku.com/wp-content/uploads/2019/06/20190629_195611.jpg",
+          "type": "Beer",
+          "abv": "5%",
+          "brand": "Chichibu Beer",
+          "origin": "Chichibu, Saitama, Japan",
+          "jpStores": [
+            {
+              "name": "Chichibu Beer Online Shop (秩父麦酒オンラインショップ)",
+              "url": "https://chichibubeer.shop-pro.jp/?pid=151056840"
+            }
+          ],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "クレマン・ド・ロワール",
+          "englishName": "Crémant de Loire",
+          "image": "https://media-viniou.com/wineimage/appellation_v2/france/vallee-de-la-loire/cremant-de-loire/bottle-75-vins-effervescent-blanc.png",
+          "type": "Wine (Sparkling)",
+          "abv": "12%",
+          "brand": "Chassaux et Fils",
+          "origin": "France",
           "jpStores": [{ "name": "", "url": "" }],
           "sgStores": [{ "name": "", "url": "" }]
         }
