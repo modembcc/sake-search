@@ -140,12 +140,45 @@
       "alcohols": [
         {
           "japaneseName": "",
-          "englishName": "",
+          "englishName": "Absinthe",
+          "image": "https://www.absinthemarket.com/wp-content/uploads/2020/06/emeraude-bovet-la-valote-50cl.jpg",
+          "type": "Absinthe",
+          "abv": "77%",
+          "brand": "Bovet La Valote (Émeraude)",
+          "origin": "Val-de-Travers, Switzerland",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "",
+          "englishName": "BrewDog Punk IPA",
+          "image": "https://beerforce.sg/cdn/shop/products/punk-ipa-bottle-new_900x.png?v=1628870786",
+          "type": "Beer",
+          "abv": "5.4%",
+          "brand": "BrewDog",
+          "origin": "Scotland",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "",
+          "englishName": "Local Sake in Kashikiri (Private hotspring)",
           "image": "",
-          "type": "",
-          "abv": "",
-          "brand": "",
-          "origin": "",
+          "type": "Sake",
+          "abv": "n.a",
+          "brand": "n.a",
+          "origin": "n.a",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "",
+          "englishName": "A Beer poured from a bottle at a bar",
+          "image": "",
+          "type": "Beer",
+          "abv": "n.a",
+          "brand": "n.a",
+          "origin": "n.a",
           "jpStores": [{ "name": "", "url": "" }],
           "sgStores": [{ "name": "", "url": "" }]
         }
