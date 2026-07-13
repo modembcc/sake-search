@@ -279,12 +279,34 @@
       "alcohols": [
         {
           "japaneseName": "",
-          "englishName": "",
+          "englishName": "Kuma No Miso Potato",
+          "image": "https://images.untp.beer/crop?width=1280&height=1280&stripmeta=true&url=https://assets.untappd.com/photos/2022_06_08/c740596bf5be74dae699679af36c596e_raw.jpg",
+          "type": "Beer",
+          "abv": "6.0%",
+          "brand": "Chichibu Beer (Bear Meet Beer / 秩父麦酒)",
+          "origin": "Chichibu, Saitama, Japan",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "紅熊X",
+          "englishName": "Akakuma X",
+          "image": "https://images.untp.beer/crop?width=1280&height=1280&stripmeta=true&url=https://assets.untappd.com/photos/2026_04_19/823c16a2b1b0b0598421d666017d182e_c_1564035738_raw.jpg",
+          "type": "Beer",
+          "abv": "5.0%",
+          "brand": "Chichibu Beer (Bear Meet Beer / 秩父麦酒)",
+          "origin": "Chichibu, Saitama, Japan",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "純米生酒",
+          "englishName": "Junmai Namazake",
           "image": "",
-          "type": "",
-          "abv": "",
-          "brand": "",
-          "origin": "",
+          "type": "Sake",
+          "abv": "14%",
+          "brand": "武甲酒造株式会社",
+          "origin": "Chichibu, Saitama, Japan",
           "jpStores": [{ "name": "", "url": "" }],
           "sgStores": [{ "name": "", "url": "" }]
         }
@@ -297,12 +319,34 @@
       "alcohols": [
         {
           "japaneseName": "",
-          "englishName": "",
-          "image": "",
-          "type": "",
-          "abv": "",
-          "brand": "",
-          "origin": "",
+          "englishName": "ETERNITY",
+          "image": "https://images.untp.beer/crop?width=1280&height=1280&stripmeta=true&url=https://assets.untappd.com/photos/2026_07_12/7448af92669a8e99df3b4eaa0682fda7_c_1585178145_raw.jpg",
+          "type": "Beer",
+          "abv": "8.5%",
+          "brand": "Uchu Brewing",
+          "origin": "Hokuto, Yamanashi, Japan",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "",
+          "englishName": "THUNDER",
+          "image": "https://images.untp.beer/crop?width=1280&height=1280&stripmeta=true&url=https://assets.untappd.com/photos/2025_09_29/8396e256c77bd9bb18038e447a34b370_c_1517346636_raw.jpg",
+          "type": "Beer",
+          "abv": "6.5%",
+          "brand": "Uchu Brewing",
+          "origin": "Hokuto, Yamanashi, Japan",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "夢乃寒梅 古酒 2000年",
+          "englishName": "Yumeno Kanbai Koshu 2000",
+          "image": "https://www.tsurumi-jp.com/wp-content/uploads/2025/09/koshu2000_pc.webp",
+          "type": "Sake (Koshu / aged sake)",
+          "abv": "20%",
+          "brand": "Tsurumi Shuzo (鶴見酒造)",
+          "origin": "Aichi, Japan",
           "jpStores": [{ "name": "", "url": "" }],
           "sgStores": [{ "name": "", "url": "" }]
         }
