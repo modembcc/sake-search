@@ -159,28 +159,6 @@
           "origin": "Scotland",
           "jpStores": [{ "name": "", "url": "" }],
           "sgStores": [{ "name": "", "url": "" }]
-        },
-        {
-          "japaneseName": "",
-          "englishName": "Local Sake in Kashikiri (Private hotspring)",
-          "image": "",
-          "type": "Sake",
-          "abv": "n.a",
-          "brand": "n.a",
-          "origin": "n.a",
-          "jpStores": [{ "name": "", "url": "" }],
-          "sgStores": [{ "name": "", "url": "" }]
-        },
-        {
-          "japaneseName": "",
-          "englishName": "A Beer poured from a bottle at a bar",
-          "image": "",
-          "type": "Beer",
-          "abv": "n.a",
-          "brand": "n.a",
-          "origin": "n.a",
-          "jpStores": [{ "name": "", "url": "" }],
-          "sgStores": [{ "name": "", "url": "" }]
         }
       ]
     },
@@ -190,15 +168,62 @@
       "airDate": "2026-05-02",
       "alcohols": [
         {
-          "japaneseName": "",
-          "englishName": "",
-          "image": "",
-          "type": "",
-          "abv": "",
-          "brand": "",
-          "origin": "",
+          "japaneseName": "宝焼酎ハイボール ドライ",
+          "englishName": "Shochu Highball DRY",
+          "image": "https://honeydaes.com/cdn/shop/files/shochu-highball-dry-7-karakuchi-chuhai-editional-350ml-can-860540_740x740.jpg?v=1736544332",
+          "type": "Chuhai (Shochu Highball)",
+          "abv": "7%",
+          "brand": "Takara",
+          "origin": "Japan",
+          "jpStores": [
+            {
+              "name": "Sake no Zenjin (酒のZenjin)",
+              "url": "https://www.sakenozenjin.com/view/item/000000000350"
+            }
+          ],
+          "sgStores": [
+            {
+              "name": "Honeydaes (Singapore)",
+              "url": "https://honeydaes.com/products/tanchu-the-ultimate-gokujo-can-chuhai-350ml-strong-carbonation-zero-sugar-7-copy"
+            }
+          ]
+        },
+        {
+          "japaneseName": "ほろよい 桃のお酒",
+          "englishName": "Suntory Horoyoi Peach Chuhai Spritzer",
+          "image": "https://cdn.media.amplience.net/i/japancentre/18503-1-suntory-horoyoi-peach-chuhai-spritzer?w=1500&h=1500&fmt=auto",
+          "type": "Chuhai",
+          "abv": "3%",
+          "brand": "Suntory",
+          "origin": "Japan",
           "jpStores": [{ "name": "", "url": "" }],
-          "sgStores": [{ "name": "", "url": "" }]
+          "sgStores": [
+            {
+              "name": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "japaneseName": "COEDO 瑠璃",
+          "englishName": "Coedo Ruri Lager",
+          "image": "http://coedobrewery.com/cdn/shop/products/ruribottle_2a79e10d-ce8f-4c64-a1ec-fd46ee2fad71.png?crop=center&height=1080&v=1662017693&width=1080",
+          "type": "Lager (Pilsner)",
+          "abv": "5%",
+          "brand": "Coedo",
+          "origin": "Kawagoe, Saitama, Japan",
+          "jpStores": [
+            {
+              "name": "Coedo Brewery Official Store",
+              "url": "https://coedobrewery.com/en/collections/coedo-classic/products/ruri"
+            }
+          ],
+          "sgStores": [
+            {
+              "name": "Meat Collective (Singapore)",
+              "url": "https://meatcollective.com.sg/JAPANESE-PREMIUM-CRAFT-BEER-COEDO-RURI-LAGER-333ML-p636869048"
+            }
+          ]
         }
       ]
     },
@@ -209,14 +234,41 @@
       "alcohols": [
         {
           "japaneseName": "",
-          "englishName": "",
-          "image": "",
-          "type": "",
-          "abv": "",
-          "brand": "",
-          "origin": "",
+          "englishName": "Salty Dog",
+          "image": "https://boulderlocavore.com/wp-content/uploads/2018/01/Salty-Dog-cocktail-title-image.jpg",
+          "type": "Cocktail",
+          "abv": "N.A.",
+          "brand": "N.A.",
+          "origin": "N.A. (classic cocktail, no fixed origin)",
           "jpStores": [{ "name": "", "url": "" }],
           "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "",
+          "englishName": "Cosmopolitan",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cosmopolitan_%285076906532%29.jpg",
+          "type": "Cocktail",
+          "abv": "N.A.",
+          "brand": "N.A.",
+          "origin": "United States",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [{ "name": "", "url": "" }]
+        },
+        {
+          "japaneseName": "",
+          "englishName": "Nadurra Oloroso Single Malt Whisky",
+          "image": "https://www.singaporewines.com/wp-content/uploads/2023/11/The-Glenlivet-Nadurra-Single-Malt-Scotch-Whisky.jpg",
+          "type": "Whiskey",
+          "abv": "61,3%",
+          "brand": "The Glenlivet",
+          "origin": "Speyside, Scotland",
+          "jpStores": [{ "name": "", "url": "" }],
+          "sgStores": [
+            {
+              "name": "Singapore Wines",
+              "url": "https://www.singaporewines.com/product/the-glenlivet-nadurra-oloroso-single-malt-whisky/"
+            }
+          ]
         }
       ]
     },
