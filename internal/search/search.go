@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/modembcc/sake-search/internal/episode"
+	"github.com/modembcc/kamiina-lookup/internal/episode"
 )
 
 // Entry is a searchable alcohol reference tied to the episode it appeared in.

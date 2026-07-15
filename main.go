@@ -5,19 +5,22 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/modembcc/sake-search/internal/episode"
-	"github.com/modembcc/sake-search/internal/search"
+	"github.com/modembcc/kamiina-lookup/internal/episode"
+	"github.com/modembcc/kamiina-lookup/internal/search"
+	"github.com/modembcc/kamiina-lookup/internal/style"
 )
 
 func main() {
+	flag.CommandLine.SetOutput(os.Stdout)
+	flag.Usage = printUsage
+
 	dataPath := flag.String("data", "data/episodes.json", "path to episodes JSON dataset")
 	episodeNum := flag.Int("episode", 0, "episode number to look up")
 	query := flag.String("query", "", "search all episodes for a drink by name or brand")
 	flag.Parse()
 
 	if *episodeNum == 0 && *query == "" {
-		fmt.Println("usage: sake-search --episode N [--data path/to/episodes.json]")
-		fmt.Println("       sake-search --query TEXT [--data path/to/episodes.json]")
+		printUsage()
 		os.Exit(1)
 	}
 
@@ -41,71 +44,93 @@ func main() {
 	printEpisode(ep)
 }
 
+func printUsage() {
+	fmt.Println(style.Banner("KAMIINA LOOKUP"))
+	fmt.Println(style.Muted("  Alcohol lookup for Botan Kamiina Fully Blossoms When Drunk"))
+	fmt.Println()
+
+	fmt.Println(style.Heading("USAGE"))
+	fmt.Printf("  %s --episode N [--data path/to/episodes.json]\n", style.Accent("kamiina-lookup"))
+	fmt.Printf("  %s --query TEXT [--data path/to/episodes.json]\n", style.Accent("kamiina-lookup"))
+	fmt.Println()
+
+	fmt.Println(style.Heading("FLAGS"))
+	flag.VisitAll(func(f *flag.Flag) {
+		fmt.Printf("  %s\n", style.Label("-"+f.Name))
+		fmt.Printf("      %s\n", f.Usage)
+	})
+}
+
 func runSearch(dataset *episode.Dataset, query string) {
 	entries := search.BuildEntries(dataset.Episodes)
 	results := search.Search(entries, query)
 
 	if len(results) == 0 {
-		fmt.Printf("No matches for %q.\n", query)
+		fmt.Println(style.Muted(fmt.Sprintf("No matches for %q.", query)))
 		return
 	}
 
-	fmt.Printf("%d match(es) for %q:\n", len(results), query)
+	fmt.Println(style.Title(fmt.Sprintf("%d match(es) for %q:", len(results), query)))
 	for _, r := range results {
-		fmt.Printf("\nEpisode %d\n", r.EpisodeNumber)
+		fmt.Println()
+		fmt.Println(style.Divider(40))
+		fmt.Println(style.Muted(fmt.Sprintf("Episode %d", r.EpisodeNumber)))
 		printAlcohol(r.Alcohol)
 	}
 }
 
 func printEpisode(ep episode.Episode) {
-	fmt.Printf("Episode %d", ep.Number)
+	title := fmt.Sprintf("Episode %d", ep.Number)
 	if ep.Title != "" {
-		fmt.Printf(": %s", ep.Title)
+		title += ": " + ep.Title
 	}
-	fmt.Println()
+	fmt.Println(style.Title(title))
 	if ep.AirDate != "" {
-		fmt.Printf("Aired: %s\n", ep.AirDate)
+		fmt.Println(style.Muted("Aired: " + ep.AirDate))
 	}
 
 	if len(ep.Alcohols) == 0 {
-		fmt.Println("No alcohol references recorded for this episode.")
+		fmt.Println(style.Muted("No alcohol references recorded for this episode."))
 		return
 	}
 
 	for _, a := range ep.Alcohols {
+		fmt.Println()
+		fmt.Println(style.Divider(40))
 		printAlcohol(a)
 	}
 }
 
 func printAlcohol(a episode.Alcohol) {
-	fmt.Printf("%s", a.EnglishName)
+	fmt.Printf("%s %s", style.Bullet(), style.Heading(a.EnglishName))
 	if a.JapaneseName != "" {
-		fmt.Printf(" (%s)", a.JapaneseName)
+		fmt.Printf(" %s", style.Accent("("+a.JapaneseName+")"))
 	}
 	fmt.Println()
-	fmt.Printf("    Type:   %s\n", a.Type)
-	if a.Brand != "" {
-		fmt.Printf("    Brand:  %s\n", a.Brand)
-	}
-	if a.ABV != "" {
-		fmt.Printf("    ABV:    %s\n", a.ABV)
-	}
-	if a.Origin != "" {
-		fmt.Printf("    Origin: %s\n", a.Origin)
-	}
-	if a.Image != "" {
-		fmt.Printf("    Image:  %s\n", a.Image)
-	}
+
+	printField("Type", a.Type)
+	printField("Brand", a.Brand)
+	printField("ABV", a.ABV)
+	printField("Origin", a.Origin)
+	printField("Image", a.Image)
+
 	for _, s := range a.JPStores {
 		if s.URL == "" {
 			continue
 		}
-		fmt.Printf("    JP store: %s (%s)\n", s.Name, s.URL)
+		printField("JP store", fmt.Sprintf("%s (%s)", s.Name, s.URL))
 	}
 	for _, s := range a.SGStores {
 		if s.URL == "" {
 			continue
 		}
-		fmt.Printf("    SG store: %s (%s)\n", s.Name, s.URL)
+		printField("SG store", fmt.Sprintf("%s (%s)", s.Name, s.URL))
 	}
+}
+
+func printField(label, value string) {
+	if value == "" {
+		return
+	}
+	fmt.Printf("    %s %s\n", style.Label(label+":"), value)
 }

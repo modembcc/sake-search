@@ -3,7 +3,7 @@ package search
 import (
 	"testing"
 
-	"github.com/modembcc/sake-search/internal/episode"
+	"github.com/modembcc/kamiina-lookup/internal/episode"
 )
 
 func testEntries() []Entry {

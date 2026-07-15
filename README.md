@@ -1,6 +1,6 @@
 # kamiina-lookup
 
-Terminal app that looks up every real-world alcohol referenced in a given episode of the anime *Botan Kamiina Fully Blossoms When Drunk* (上伊那ぼたん、酔へる姿は百合の花) — Japanese and English names, ABV, brand, origin, and where to buy it in Japan and Singapore. Built with Go.
+Terminal app that looks up every real-world alcohol referenced in a given episode of the anime _Botan Kamiina Fully Blossoms When Drunk_ (上伊那ぼたん、酔へる姿は百合の花) — Japanese and English names, ABV, brand, origin, and where to buy it in Japan and Singapore. Built with Go.
 
 ## Usage
 
@@ -34,9 +34,9 @@ Curated by hand in [data/episodes.json](data/episodes.json) — one entry per ep
 ## Status
 
 Work in progress:
+
 - [x] Episode lookup CLI (`-episode N`)
-- [x] Episode 1 data seeded
-- [ ] Episodes 2–12
-- [ ] Fuzzy/partial search across all referenced drinks
-- [ ] Bubble Tea TUI
+- [x] Episodes 1–12
+- [x] Fuzzy/partial search across all referenced drinks
+- [x] Stylized UI
 - [ ] JP/EN display toggle
